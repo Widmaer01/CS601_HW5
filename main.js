@@ -2,7 +2,7 @@
 function onclicks2( ){
   const myList = document.querySelector("ul");
 
-  fetch( "tsconfig.json")
+  fetch( "https://deft-pastelito-86a446.netlify.app/tsconfig.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error, status = ${response.status}`);
