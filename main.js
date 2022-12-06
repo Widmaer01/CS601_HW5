@@ -1,5 +1,5 @@
 
-function onclicks2( ){
+function onclicks2(){
   const myList = document.querySelector("ul");
 
   fetch( "https://deft-pastelito-86a446.netlify.app/tsconfig.json")
